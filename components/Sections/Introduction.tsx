@@ -324,8 +324,7 @@ function Introduction(props: IIntorductionProps) {
             }
           `}
         >
-          Using <HighlightWord>Javascript and NodeJS</HighlightWord> alongside
-          with Typescript to bring any ideas to life <br />
+          Using <HighlightWord>Javascript, NodeJS and Typescript</HighlightWord> to bring ideas to life <br />
         </Typography>
         <ContactDownloadButtons
           isModalOpen={isModalOpen}

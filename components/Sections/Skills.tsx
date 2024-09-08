@@ -9,6 +9,7 @@ import {
 } from "../StyledComponents";
 
 import apiIcon from "../../static/icons/api-min.png";
+import devopsIcon from "../../static/icons/devops.png";
 import cssIcon from "../../static/icons/css.png";
 import figmaIcon from "../../static/icons/figma-min.png";
 import gitIcon from "../../static/icons/git-min.png";
@@ -171,18 +172,13 @@ const Skill = ({ description, logoHref, name }: ISkillProps) => {
 const skills: ISkillProps[] = [
   {
     name: "React",
-    description: "Redux, Hooks, tests, animation, styleld, Apollo, material-ui",
+    description: "NextJS, Redux, Hooks, Apollo, material-ui",
     logoHref: reactIcon.src,
   },
   {
-    name: "JavaScript",
-    description: "Async/await, promises, ES6",
+    name: "JS + TS",
+    description: "Async/await, promises, ES6 | Generics, Types, Interfaces",
     logoHref: jsIcon.src,
-  },
-  {
-    name: "Typescript",
-    description: "Generics, Types, Interfaces",
-    logoHref: tsIcon.src,
   },
   {
     name: "Styling",
@@ -191,12 +187,12 @@ const skills: ISkillProps[] = [
   },
   {
     name: "API integration",
-    description: "Async endpoints calls, GraphQL queries",
+    description: "Asynchronous API calls, GraphQL queries",
     logoHref: apiIcon.src,
   },
   {
     name: "Design",
-    description: "Worked and create with Figma, AdobeXD. Used Abstract",
+    description: "Worked with and created in Figma and AdobeXD",
     logoHref: figmaIcon.src,
   },
   {
@@ -206,23 +202,23 @@ const skills: ISkillProps[] = [
   },
   {
     name: "NodeJS",
-    description: "Working with the endpoints, transforming and storing data",
+    description: "Express, Puppeteer",
     logoHref: nodeIcon.src,
   },
   {
     name: "Languages",
-    description: "English (C1) + Russian (native), Want to learn Spanish",
+    description: "Fluent in English (C1) and Russian (native)",
     logoHref: languagesIcon.src,
   },
   {
     name: "Git + WMS",
-    description: "Github, gitlab, jira, asana, redmine (please no god)",
+    description: "Github, gitlab, jira, asana, redmine",
     logoHref: gitIcon.src,
   },
   {
-    name: "React Native",
-    description: "Navigation, error tracking, performance optimization",
-    logoHref: reactIcon.src,
+    name: "DevOps",
+    description: "Docker, AWS (S3, Cognito, Amplify)",
+    logoHref: devopsIcon.src,
   },
 ];
 

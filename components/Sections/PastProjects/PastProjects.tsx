@@ -50,7 +50,7 @@ const projects: IProjectProps[] = [
       { href: grimace1.src, alt: "Terminal with start" },
       { href: grimace2.src, alt: "Grimace Smart Contract Explorer" },
     ],
-    description: `NFT Auction where I implemented Solidity smart contract, worked closely with designers to lead frontend team to finish functionality and make sure website is safe to use. Wrote NodeJS to serve images used from AWS store. Used AWS to deploy. Used NextJS, Solidity, NodeJS, AWS, Web3 libraries`,
+    description: `NFT Auction where I implemented Solidity smart contracts and collaborated closely with designers to lead the frontend team, ensuring full functionality and website security`,
     shadowColor: "#9406ff",
   },
   {
@@ -60,7 +60,7 @@ const projects: IProjectProps[] = [
       { href: greeceEmbassyScraper.src, alt: "Grimace NFT main page" },
       { href: greeceFlag.src, alt: "Grimace Smart Contract Explorer" },
     ],
-    description: `NodeJS + Puppeteer + Telegram scraper for greece embassy to notify when there's available slots to book. Used 2captcha to bypass captcha. Used Heroku to host app. Sold results to tour agency`,
+    description: `Developed a NodeJS, Puppeteer, and Telegram scraper for the Greek embassy to notify users of available booking slots. Integrated 2captcha to bypass captchas and deployed the app on Heroku. The results were sold to a tour agency`,
     shadowColor: "#8e0147",
   },
   {
@@ -70,7 +70,7 @@ const projects: IProjectProps[] = [
       { href: dapperlabsNFL1.src, alt: "NFL All Day main page" },
       { href: dapperlabsNFL2.src, alt: "NFL All Day drop page" },
     ],
-    description: `NFL All Day is an store with NFT's of NFL league moments, user can check buy drops, collect moments and trade moments. I've been working on search page and nft product page, managing state across these pages using React Context. Demo progress to the clients every 2 weeks, worked closely with project manager.`,
+    description: `NFL All Day is a store featuring NFL league moments as NFTs, where users can browse, buy, collect, and trade`,
     shadowColor: "#ff8000",
   },
   {
@@ -105,7 +105,7 @@ const projects: IProjectProps[] = [
       { href: connectors1.src, alt: "Connectors main section" },
     ],
     description:
-      "Affiliate programme for Depop. Powered with Gatsby, React and SSR. I have worked on creating pages and using google analytics on them",
+      "Affiliate program for Depop, powered by Gatsby, React, and SSR. I worked on creating pages and implementing Google Analytics",
     shadowColor: "#D16499",
   },
   {

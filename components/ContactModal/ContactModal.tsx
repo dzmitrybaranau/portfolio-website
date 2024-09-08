@@ -156,7 +156,7 @@ const contactOptions: IContactOptionProps[] = [
     href: "mailto: dimabaranov98@gmail.com",
     options: {},
     gradient: "linear-gradient(171.72deg, #A463F6 0%, #A340C6 97.85%)",
-    copyLabel: "click to copy address",
+    copyLabel: "click to copy email address",
     copyValue: "dimabaranov98@gmail.com",
   },
   {
