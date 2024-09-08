@@ -256,7 +256,7 @@ function Introduction(props: IIntorductionProps) {
             `}
             mB="24px"
           >
-            Senior Full-Stack Developer
+            Full-Stack Developer
           </Typography>
           <ProfilePicWrapper>
             <SideNote>
@@ -291,9 +291,9 @@ function Introduction(props: IIntorductionProps) {
                   }
                 `}
               >
-                I'm a senior Software Engineer, most of my experience comes from
+                I'm a Software Engineer, most of my experience comes from
                 working on the frontend part in large tech companies. <br />
-                <br /> I also made profitable pet project (web scraper), and worked as a
+                <br /> I also work on pet projects, and worked as a
                 freelance developer
               </Typography>
             </SideNote>
